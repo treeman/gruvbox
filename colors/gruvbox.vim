@@ -649,6 +649,11 @@ hi! link iCursor Cursor
 " Language mapping cursor
 hi! link lCursor Cursor
 
+if has('nvim')
+  hi! link TermCursor Cursor
+  call s:HL('TermCursorNC', s:none, s:gb.bg2)
+endif
+
 " }}}
 " Syntax Highlighting: {{{
 
