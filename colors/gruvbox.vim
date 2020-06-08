@@ -1030,6 +1030,11 @@ call s:HL('CocInfoHighlight', s:none, s:none, s:undercurl, s:yellow)
 call s:HL('CocHintHighlight', s:none, s:none, s:undercurl, s:blue)
 
 " }}}
+" highlighted-yank {{{
+
+call s:HL('HighlightedyankRegion',    s:none,  s:gb.bg3, s:invert_selection)
+
+" }}}
 
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
