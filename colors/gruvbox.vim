@@ -385,8 +385,7 @@ if exists('g:gruvbox_number_column')
   let s:number_column = get(s:gb, g:gruvbox_number_column)
 endif
 
-let s:sign_column = s:gb.bg1
-
+let s:sign_column = s:none
 if exists('g:gruvbox_sign_column')
   let s:sign_column = get(s:gb, g:gruvbox_sign_column)
 endif
